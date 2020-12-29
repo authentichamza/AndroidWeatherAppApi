@@ -9,22 +9,37 @@
         android:layout_marginBottom="10dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:layout_weight="1"
+            android:background="@drawable/customborder"
             android:orientation="horizontal">
+
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
                 android:src="@drawable/ic_baseline_wb_sunny_24" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/black"
+                android:gravity="center" />
+
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="97dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/upperText"
                     android:layout_width="wrap_content"
@@ -32,6 +47,7 @@
                     android:text="Sunrise:"
                     android:textColor="@android:color/holo_red_dark"
                     android:textSize="20sp" />
+
                 <TextView
                     android:id="@+id/lowerText"
                     android:layout_width="wrap_content"
@@ -43,22 +59,36 @@
             </LinearLayout>
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@drawable/customborder"
             android:orientation="horizontal">
+
             <ImageView
                 android:id="@+id/image2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dp"
                 android:src="@drawable/ic_baseline_wb_sunny_24" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/black"
+                android:gravity="center" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/upperText2"
                     android:layout_width="wrap_content"
@@ -66,6 +96,7 @@
                     android:text="Sunrise:"
                     android:textColor="@android:color/holo_red_dark"
                     android:textSize="20sp" />
+
                 <TextView
                     android:id="@+id/lowerText2"
                     android:layout_width="wrap_content"
@@ -75,6 +106,7 @@
                     android:textColor="@android:color/holo_blue_bright"
                     android:textSize="15sp" />
             </LinearLayout>
+
         </LinearLayout>
 </LinearLayout>
 
